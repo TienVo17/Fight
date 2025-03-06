@@ -5,7 +5,7 @@ namespace TeduEcommerce.ProductCategories;
 
 
 // Danh mục sản phẩm
-public class ProductCategories : CreationAuditedAggregateRoot<Guid>
+public class ProductCategory : CreationAuditedAggregateRoot<Guid>
 {
     public string Name { get; set; }
     public string Code { get; set; }
