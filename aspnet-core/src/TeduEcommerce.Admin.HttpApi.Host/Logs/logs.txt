@@ -1,0 +1,153 @@
+2025-03-10 14:10:10.907 +07:00 [INF] Starting TeduEcommerce.Admin.HttpApi.Host.
+2025-03-10 14:10:30.208 +07:00 [INF] Loaded ABP modules:
+2025-03-10 14:10:30.209 +07:00 [INF] - TeduEcommerce.Admin.TeduEcommerceAdminHttpApiHostModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - TeduEcommerce.Admin.TeduEcommerceHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - TeduEcommerce.Admin.TeduEcommerceApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - TeduEcommerce.TeduEcommerceDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2025-03-10 14:10:30.210 +07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2025-03-10 14:10:30.210 +07:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-03-10 14:10:30.210 +07:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2025-03-10 14:10:30.210 +07:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-03-10 14:10:30.210 +07:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-03-10 14:10:30.210 +07:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2025-03-10 14:10:30.210 +07:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-03-10 14:10:30.210 +07:00 [INF]                 - Volo.Abp.Threading.AbpThreadingModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-03-10 14:10:30.210 +07:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - TeduEcommerce.Admin.TeduEcommerceAdminApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - TeduEcommerce.TeduEcommerceDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2025-03-10 14:10:30.210 +07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2025-03-10 14:10:30.210 +07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - TeduEcommerce.EntityFrameworkCore.TeduEcommerceEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2025-03-10 14:10:30.210 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2025-03-10 14:10:30.911 +07:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2025-03-10 14:10:30.915 +07:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2025-03-10 14:10:32.735 +07:00 [INF] User profile is available. Using 'C:\Users\ES-IT30\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-10 14:10:32.804 +07:00 [INF] Initialized all ABP modules.
+2025-03-10 14:10:33.046 +07:00 [INF] Now listening on: https://localhost:5001
+2025-03-10 14:10:33.104 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-10 14:10:33.104 +07:00 [INF] Hosting environment: Development
+2025-03-10 14:10:33.104 +07:00 [INF] Content root path: D:\tedu-ecommerce\aspnet-core\src\TeduEcommerce.Admin.HttpApi.Host\
+2025-03-10 14:10:33.823 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2025-03-10 14:10:39.215 +07:00 [INF] Executing endpoint 'TeduEcommerce.Controllers.HomeController.Index (TeduEcommerce.Admin.HttpApi.Host)'
+2025-03-10 14:10:39.251 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller TeduEcommerce.Controllers.HomeController (TeduEcommerce.Admin.HttpApi.Host).
+2025-03-10 14:10:39.287 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-03-10 14:10:39.291 +07:00 [INF] Executed action TeduEcommerce.Controllers.HomeController.Index (TeduEcommerce.Admin.HttpApi.Host) in 36.3259ms
+2025-03-10 14:10:39.291 +07:00 [INF] Executed endpoint 'TeduEcommerce.Controllers.HomeController.Index (TeduEcommerce.Admin.HttpApi.Host)'
+2025-03-10 14:10:39.313 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2025-03-10 14:10:39.317 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 302 0 - 5495.2876ms
+2025-03-10 14:10:39.382 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 68.9095ms
+2025-03-10 14:10:39.767 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 14:10:39.770 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12396 application/javascript;+charset=utf-8 3.4023ms
+2025-03-10 14:10:39.835 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2025-03-10 14:10:39.914 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.0495ms
+2025-03-10 14:10:42.032 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2025-03-10 14:10:42.096 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.1989ms
+2025-03-10 14:12:15.219 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/oauth2-redirect.html?code=jFkPZwKOcH1BJHaEtMfzf70fgUuo_ZO8QuzOlYkfOlU&state=TW9uIE1hciAxMCAyMDI1IDE0OjEyOjEzIEdNVCswNzAwIChJbmRvY2hpbmEgVGltZSk%3D - -
+2025-03-10 14:12:15.238 +07:00 [INF] Sending file. Request path: '/oauth2-redirect.html'. Physical path: 'N/A'
+2025-03-10 14:12:15.238 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/oauth2-redirect.html?code=jFkPZwKOcH1BJHaEtMfzf70fgUuo_ZO8QuzOlYkfOlU&state=TW9uIE1hciAxMCAyMDI1IDE0OjEyOjEzIEdNVCswNzAwIChJbmRvY2hpbmEgVGltZSk%3D - - - 200 - text/html 18.9648ms
+2025-03-10 14:12:15.252 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2025-03-10 14:12:15.253 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 14:12:15.253 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12396 application/javascript;+charset=utf-8 0.2885ms
+2025-03-10 14:12:15.256 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0629ms
